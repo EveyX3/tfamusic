@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"rootDir": "src",
+		"outDir": "dist",
+		"baseUrl": "src",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"module": "commonjs",
+		"paths": {
+			"#lib/*": [
+				"./lib/*"
+			]
+		},
+		"noImplicitReturns": false
+	},
+	"include": [
+		"src"
+	]
+}
